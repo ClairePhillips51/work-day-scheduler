@@ -5,6 +5,7 @@ let $planner = $(".container");
 let hours = ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"];
 
 let currentTime = moment().hour();
+//let currentTime = moment("2 PM","h A").hour();
 
 for (let i=0; i < 9; i++) {
     let hour = hours[i];
@@ -23,8 +24,8 @@ for (let i=0; i < 9; i++) {
         ppf = "future";
     }
 
-    $row.append('<div class="col-10 description '+ppf+'"></div>');
-    $row.append('<div class="col-1 saveBtn"></div>'); 
+    $row.append('<textarea class="col-10 description '+ppf+'"></textarea>');
+    $row.append('<div class="col-1" style="padding-left: none; padding-right:none;"><button class="saveBtn ui-button ui-widget ui-corner-all ui-button-icon-only" title="Button with icon only"><span class="ui-icon ui-icon-disk"></span> Button with icon only</button></div>');
 
 }
 
