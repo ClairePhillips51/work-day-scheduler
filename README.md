@@ -40,7 +40,7 @@ Setting up the for loop so I could append all the needed elements for the rows a
 One thing I did struggle with was getting the save button to be a bigger size. I couldn't seem to manipulte the jQuery UI icon I used so I left it alone. 
 
 ## Resources
-* [Local Storage)](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* [Local Storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 * [Bootstrap grid system](https://getbootstrap.com/docs/4.5/layout/grid/)
 * [jQuery UI save button Icon Code](https://jqueryui.com/button/#icons)
 * [Moment.js Docs](https://momentjs.com/docs/#/displaying/) 
