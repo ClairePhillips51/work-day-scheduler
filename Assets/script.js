@@ -2,6 +2,7 @@ let hours = ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", 
 let $planner = $(".container");
 let currentDay = moment().format('dddd MMMM Do');
 let currentTime = moment().hour();
+//let currentTime = moment("2 PM","h A").hour();
 
 // Set date at the top of the page to be the current date.
 $("#currentDay").text(currentDay);
